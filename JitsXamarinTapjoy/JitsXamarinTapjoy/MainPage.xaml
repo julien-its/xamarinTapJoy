@@ -5,10 +5,11 @@
              x:Class="JitsXamarinTapjoy.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Ouvrir une Interstitiel en cliquant sur le bouton" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button x:Name="BtnConnect" Text="Connect"></Button>
+        <Button x:Name="BtnOpen" Text="Open"></Button>
     </StackLayout>
 
 </ContentPage>

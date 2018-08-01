@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JitsXamarinTapjoy.Android",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JitsXamarinTapjoy", "JitsXamarinTapjoy\JitsXamarinTapjoy\JitsXamarinTapjoy.csproj", "{7AE98638-3915-4793-9223-AFC75731E60B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JitsXamarinTapjoyBinding", "JitsXamarinTapjoyBinding\JitsXamarinTapjoyBinding.csproj", "{026D6C38-2002-4496-8D72-34962D70DCE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{7AE98638-3915-4793-9223-AFC75731E60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AE98638-3915-4793-9223-AFC75731E60B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7AE98638-3915-4793-9223-AFC75731E60B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{026D6C38-2002-4496-8D72-34962D70DCE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026D6C38-2002-4496-8D72-34962D70DCE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026D6C38-2002-4496-8D72-34962D70DCE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026D6C38-2002-4496-8D72-34962D70DCE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

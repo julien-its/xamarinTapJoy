@@ -1,0 +1,5 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.tapjoy']/class[@name='TapjoyCache.CacheAssetThread']/method[@name='call' and count(parameter)=0]" name="managedName">BoolCall</attr>
+  <!-- <remove-node path="/api/package[@name='com.tapjoy']/interface[@name='TJVideoListener']/method[@name='onVideoError' and count(parameter)=1 and parameter[1][@type='int']]" /> -->
+  <attr path="/api/package[@name='com.tapjoy']/interface[@name='TJVideoListener']/method[@name='onVideoError']/parameter[@name='p0']" name="name">args</attr>
+</metadata>
