@@ -32,14 +32,12 @@ namespace JitsXamarinTapjoy.Droid.PlatformSpecific
         public void open()
         {
             var placementListener = new TapjoyPlacementListner();
-            //Com.Tapjoy.TJPlacement p = Com.Tapjoy.Tapjoy.GetPlacement("videocado-tapjoy", placementListener);
 
             var context = Application.Context;
             Com.Tapjoy.TJPlacement p = new Com.Tapjoy.TJPlacement(context, "videocado-tapjoy", placementListener);
 
             placementListener.SetPlacement(p);
 
-            //Com.Tapjoy.Tapjoy.SetActivity(activity);
 
             p.RequestContent();
            
